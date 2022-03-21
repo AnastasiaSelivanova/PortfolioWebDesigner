@@ -1,0 +1,143 @@
+.wrapperPortfolio{
+	position: relative;
+	z-index: 0;
+	background-color: #000000;
+	max-width: 100vw;
+	/* height: 100vh; */
+	overflow-x:hidden;
+	overflow:  hidden;
+	color: #fff;
+	/* max-height: 2005px; */
+}
+.contentPortfolio{
+	display: flex;
+	flex-direction: column;
+	margin: 0px 200px;
+}
+.headerPortfolio{
+	margin-top: 50px;
+	margin-bottom: 75px;
+	align-self: flex-end;
+	font-size: 20px;
+}
+.imagePortfolio, .imagePortfolio2{
+	position: absolute;
+	top: 0;
+	left: 0;	
+	margin-left: 200px;
+}
+.line6{
+	position: relative;
+	top: 900px;
+	left: 583px;
+}
+.line7{
+	position: relative;
+	top: 509px;
+	left: 1199px;
+}
+.line8{
+	position: relative;
+	top: 1755px;
+	left: 900px;
+}
+.line9{
+	position: relative;
+	top: 1755px;
+	left: 1150px;
+}
+
+@media screen and (max-width: 1740px){
+	.line7{
+		left: 984px;
+	}
+	.line8{
+		left: 800px;
+	}
+	.line9{
+		left: 1000px;
+	}
+}
+@media screen and (max-width: 1550px){
+	.line7{
+		left: 891px;
+	}
+}
+@media screen and (max-width: 1450px){
+	.line6{
+		left: 522px;
+	}
+	.line7{
+		left: 799px;
+	}
+}
+@media screen and (max-width: 1400px){
+	.contentPortfolio{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	.line6{
+		display: none;
+	}
+	.line7{
+		left: 756px;
+		top: 900px;
+	}
+	.line8{
+		left: 650px;
+	}
+	.line9{
+		left: 750px;
+	}
+}
+@media screen and (max-width: 1200px){
+	.line8{
+		left: 620px;
+	}
+	.line9{
+		left: 660px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.line8{
+		left: 650px;
+		top: 1603px;
+		height: 700px;
+	}
+	.line9{
+		display: none;
+	}
+}
+@media screen and (max-width: 1000px){
+	.line7{
+		left: 496px;
+		top: 680px;
+	}
+	.headerPortfolio{
+		font-size: 15px;
+	}
+	.line8{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.line7{
+		left: 444px;
+	}
+}
+@media screen and (max-width: 700px){
+	.line7{
+		left: -100px;
+	}
+}
+@media screen and (max-width: 600px){
+	.contentPortfolio{
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+}
+@media screen and (max-width: 455px){
+	.line7{
+		left: -150px;
+	}
+}

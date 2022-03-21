@@ -1,0 +1,450 @@
+.wrapper{
+	background-color: #030303;
+	max-width: 100vw;
+	/* height: 100vh; */
+	height: 900px;
+	overflow-x:hidden;
+	overflow:  hidden;
+	color: #fff;
+}
+.content{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.header{
+	margin-top: 50px;
+	font-size: 20px;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+.info{
+	margin-top: 220px;
+	display: flex;
+	flex: 1 1 auto;
+	max-width: 716px;
+	justify-content: space-between;
+}
+.info-text{
+}
+.info-text_offer{
+	font-size: 22px;
+}
+.info-text_create{
+	max-width: 355px;
+	font-size: 18px;
+	margin-top: 62px;
+	margin-bottom: 118px;
+}
+.info-text_design{
+	max-width: 506px;
+	font-size: 18px;
+}
+.info-field{
+	max-width: 145px;
+	line-height: 35px;
+	font-size: 18px;
+}
+.backimage{
+	position: relative;
+	top: -115px;
+	z-index: 0;
+}
+.dportfolio{
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	display: none;
+	font-size: 18px;
+	top: 100px;
+	left: 54%;
+}
+.dportfolio-o1{
+	margin-left: 55px;
+	margin-right: 29px;
+}
+.dportfolio-t{
+	margin-left: 40px;
+	margin-right: 56px;
+}
+.dportfolio-o2{
+	margin-left: 46px;
+	margin-right: 17px;
+}
+.dportfolio-i{
+	margin-left: 36px;
+	margin-right: 69px;
+}
+
+
+
+
+.wrapImg{
+	position: absolute;
+	top: 0;
+	left: 0;	
+	margin-left: 200px;
+}
+.imageMain{
+	position: relative;
+	z-index: 2;
+	margin-left: 200px;
+	margin-top: -980px;
+}
+.portfolio{
+	position: relative;
+	z-index: 1;
+	text-transform: uppercase;
+	display: flex;
+	font-size: 18px;
+	top: 100px;
+	left: 54%;
+}
+.portfolio-p{
+}
+.portfolio-o1{
+	margin-left: 55px;
+	margin-right: 29px;
+}
+.portfolio-r{
+}
+.portfolio-t{
+	margin-left: 40px;
+	margin-right: 56px;
+}
+.portfolio-f{
+	color: #000000;
+}
+.portfolio-o2{
+	color: #000000;
+	margin-left: 46px;
+	margin-right: 17px;
+}
+.portfolio-l{
+	color: #000000;
+}
+.portfolio-i{
+	color: #000000;
+	margin-left: 36px;
+	margin-right: 69px;
+}
+.portfolio-o3{
+	color: #000000;
+}
+.line1{
+	position: relative;
+	left: 15%;
+	top: -350px;
+}
+.line2{
+	position: relative;
+	left: 83%;
+	top: -200px;
+}
+.line3{
+	position: relative;
+	left: 86%;
+	top: -120px;
+}
+.line4{
+	position: relative;
+	left: 140%;
+	top: 190px;
+}
+.line5{
+	position: relative;
+	left: 290%;
+	top: 190px;
+}
+
+@media screen and (max-width: 1840px){
+	.portfolio{
+		left: 51%;
+	}
+}
+@media screen and (max-width: 1740px){
+	.portfolio{
+		left: 48%;
+	}
+	.line5{
+		left: 220%;
+	}
+}
+@media screen and (max-width: 1640px){
+	.portfolio{
+		left: 44.2%;
+	}
+}
+@media screen and (max-width: 1550px){
+	.portfolio{
+		left: 48%;
+	}
+	.backimage{
+		left: 100px;
+	}
+	.line3{
+		display: none;
+	}
+	.line5{
+		left: 190%;
+	}
+
+}
+@media screen and (max-width: 1450px){
+	.portfolio{
+		left: 44%;
+	}
+	.line4{
+		left: 120%;
+	}
+	.line5{
+		left: 160%;
+	}
+
+}
+@media screen and (max-width: 1400px){
+	.content{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	.info{
+		flex-direction: column;
+		margin-top: 130px;
+	}
+	.info-field{
+		margin-bottom: 270px;
+	}
+	.backimage{
+		left:0;
+	}
+	.line4{
+		display: none;
+	}
+	.line5{
+		top: 290px;
+		margin-left: 290px;
+	}
+}
+@media screen and (max-width: 1360px){
+	.portfolio{
+		left: 39.5%;
+	}
+}
+@media screen and (max-width: 1270px){
+	.portfolio{
+		left: 34.5%;
+	}
+}
+@media screen and (max-width: 1200px){
+	.backimage{
+		left: 50px;
+	}
+}
+@media screen and (max-width: 1110px){
+	.portfolio{
+		left: 28%;
+	}
+}
+@media screen and (max-width: 1100px){
+	.info{
+		margin-top: 150px;
+	}
+	.info-text_create{
+		font-size: 14px;
+		max-width: 300px;
+	}
+	.info-text_design{
+		max-width: 400px;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 1050px){
+	.portfolio{
+		left: 24%;
+	}
+}
+@media screen and (max-width: 1000px){
+	.wrapper{
+		height: 680px;
+	}
+	.header{
+		font-size: 15px;
+	}
+	.backimage{
+		display: none;
+	}
+	.info{
+		max-width: 100%;
+		flex: 1 1 auto;
+		margin-top: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.info-text{
+	}
+	.info-text_offer{
+		font-size: 18px;
+	}
+	.info-text_create{
+		max-width: 355px;
+		font-size: 14px;
+		margin-top: 40px;
+		margin-bottom: 70px;
+	}
+	.info-text_design{
+		max-width: 506px;
+		font-size: 14px;
+	}
+	.info-field{
+		margin: 0;
+	}
+	.portfolio{
+		display: none;
+	}
+	.dportfolio{
+		display: flex;
+	}
+	.line2{
+		display: none;
+	}
+	.line1{
+		top: 350px;
+	}
+	.line5{
+		margin-left: 190px;
+		top: 400px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.portfolio{
+		left: 4%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.info-text_create{
+		max-width: 250px;
+		font-size: 12px;
+	}
+	.info-text_design{
+		max-width: 350px;
+		font-size: 12px;
+	}
+	.portfolio{
+		top: 595px;
+		left: -35px;
+	}
+	.line5{
+		margin-left: 170px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.info{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.info-text{
+		margin-right: 0;
+	}
+	.info-text_offer{
+		font-size: 18px;
+		text-align: center;
+	}
+	.info-text_create{
+		margin: 45px auto 85px;
+		max-width: 355px;
+		text-align: center;
+	}
+	.info-text_design{
+		max-width: 506px;
+		text-align: center;
+	}
+	.info-field{
+		text-align: center;
+		margin-top: 50px;
+		/* margin-bottom: 100px; */
+	}
+	.line1{
+		top: 150px;
+		left: 70%;
+	}
+	.line5{
+		margin-left: -100px;
+	}
+}
+
+@media screen and (max-width: 655px){
+	.dportfolio-o1{
+		margin-left: 45px;
+		margin-right: 19px;
+	}
+	.dportfolio-t{
+		margin-left: 30px;
+		margin-right: 46px;
+	}
+	.dportfolio-o2{
+		margin-left: 36px;
+		margin-right: 17px;
+	}
+	.dportfolio-i{
+		margin-left: 26px;
+		margin-right: 59px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.content{
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+}
+
+@media screen and (max-width: 455px){
+	.dportfolio-o1{
+		margin-left: 35px;
+		margin-right: 15px;
+	}
+	.dportfolio-t{
+		margin-left: 20px;
+		margin-right: 36px;
+	}
+	.dportfolio-o2{
+		margin-left: 26px;
+		margin-right: 14px;
+	}
+	.dportfolio-i{
+		margin-left: 16px;
+		margin-right: 39px;
+	}
+	.line5{
+		margin-left: -150px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.dportfolio-o1{
+		margin-left: 23px;
+		margin-right: 9px;
+	}
+	.dportfolio-t{
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+	.dportfolio-o2{
+		margin-left: 23px;
+		margin-right: 9px;
+	}
+	.dportfolio-i{
+		margin-left: 10px;
+		margin-right: 25px;
+	}
+	.line5{
+		left: -90%;
+	}
+}
